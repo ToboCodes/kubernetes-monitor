@@ -9,7 +9,7 @@ git --version'''
       }
     }
 
-    stage('Deploy billing App') {
+    stage('Deploy ProyectDevopsApp') {
       steps {
         withCredentials(bindings: [
                       string(credentialsId: 'kubernete-jenkis-server-account', variable: 'api_token')
