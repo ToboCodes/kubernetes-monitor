@@ -17,7 +17,7 @@ spec:
           image: mramoscli/projectdevops       
           ports:
             - containerPort: 9090
-              name: proyectdevopsport
+              name: proyectdevops  # updated port name
 ---
 kind: Service
 apiVersion: v1
@@ -27,7 +27,7 @@ metadata:
     app: proyectdevops-fullstack-jenkins
 spec:   
   ports:
-  - name: proyectdevops-fullstack-jenkins
+  - name: proyectdevops  # updated port name
     port: 9090
     nodePort : 31780 
   #type: LoadBalancer
