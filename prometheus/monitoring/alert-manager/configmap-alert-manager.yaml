@@ -9,7 +9,7 @@ data:
   alertmanager.yml: |-
     global:
       resolve_timeout: 5m
-      slack_api_url: 'https://hooks.slack.com/services/cambiar esta linea por el propio webhook de su cuenta en slack'
+      slack_api_url: 'https://hooks.slack.com/services/suconfiguracionESTONOFUNCIONA!!!!!'
   
     route:
       group_by: ['alertname', 'priority']
